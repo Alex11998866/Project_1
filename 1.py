@@ -7,5 +7,9 @@ for i in lst:
     lst_1.append(m)
 
 print(lst_1)
+lst_2 = []
+for i in lst_1:
+    x = i + 2
+    lst_2.append(x)
 
-map(lambda x: print(x ** 2), lst)
+print(lst_2)
